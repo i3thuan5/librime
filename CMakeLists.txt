@@ -5,7 +5,7 @@ project(rime)
 cmake_minimum_required(VERSION 3.10)
 
 set(rime_version 2.0.0)
-set(rime_soversion 1)
+set(rime_soversion 2)
 
 add_definitions(-DRIME_VERSION="${rime_version}")
 
