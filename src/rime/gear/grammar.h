@@ -1,6 +1,7 @@
 #ifndef RIME_GRAMMAR_H_
 #define RIME_GRAMMAR_H_
 
+#include <cmath>
 #include <rime/common.h>
 #include <rime/component.h>
 

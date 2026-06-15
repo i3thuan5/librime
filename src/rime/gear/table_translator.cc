@@ -4,6 +4,7 @@
 //
 // 2011-07-10 GONG Chen <chen.sst@gmail.com>
 //
+#include <cmath>
 #include <boost/algorithm/string.hpp>
 #include <boost/range/adaptor/reversed.hpp>
 #include <utf8.h>

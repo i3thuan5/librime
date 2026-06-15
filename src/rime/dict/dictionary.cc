@@ -4,6 +4,7 @@
 //
 // 2011-07-05 GONG Chen <chen.sst@gmail.com>
 //
+#include <cmath>
 #include <boost/filesystem.hpp>
 #include <rime/algo/syllabifier.h>
 #include <rime/common.h>
