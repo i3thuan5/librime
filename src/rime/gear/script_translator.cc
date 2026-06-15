@@ -7,6 +7,7 @@
 // 2011-07-10 GONG Chen <chen.sst@gmail.com>
 //
 #include <algorithm>
+#include <cmath>
 #include <stack>
 #include <boost/algorithm/string/join.hpp>
 #include <boost/range/adaptor/reversed.hpp>
