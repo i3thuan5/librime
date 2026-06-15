@@ -69,6 +69,7 @@ if(BUILD_SHARED_LIBS)
   add_library(rime ${rime_src})
   target_link_libraries(rime ${rime_deps})
   set_target_properties(rime PROPERTIES
+    OUTPUT_NAME rime-ithuan
     DEFINE_SYMBOL "RIME_EXPORTS"
     VERSION ${rime_version}
     SOVERSION ${rime_soversion})

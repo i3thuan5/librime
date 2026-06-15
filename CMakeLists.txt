@@ -4,7 +4,7 @@ set(CMAKE_USER_MAKE_RULES_OVERRIDE_CXX ${CMAKE_CURRENT_SOURCE_DIR}/cmake/cxx_fla
 project(rime)
 cmake_minimum_required(VERSION 3.10)
 
-set(rime_version 1.5.3)
+set(rime_version 2.0.0)
 set(rime_soversion 1)
 
 add_definitions(-DRIME_VERSION="${rime_version}")
@@ -175,9 +175,9 @@ if(${CMAKE_SYSTEM_NAME} MATCHES "Linux|FreeBSD|DragonFly|GNU")
   set(includedir "${CMAKE_INSTALL_FULL_INCLUDEDIR}")
   configure_file(
       ${PROJECT_SOURCE_DIR}/rime.pc.in
-      ${PROJECT_BINARY_DIR}/rime.pc
+      ${PROJECT_BINARY_DIR}/rime-ithuan.pc
       @ONLY)
-  install(FILES ${PROJECT_BINARY_DIR}/rime.pc
+  install(FILES ${PROJECT_BINARY_DIR}/rime-ithuan.pc
     DESTINATION ${CMAKE_INSTALL_FULL_LIBDIR}/pkgconfig)
 endif()
 

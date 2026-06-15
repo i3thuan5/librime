@@ -4,8 +4,8 @@ libdir=@libdir@
 includedir=@includedir@
 pkgdatadir=@pkgdatadir@
 
-Name: Rime
-Description: Rime Input Method Engine
+Name: ÌTHUÂN KHOKI RIME
+Description: Tâi-bûn Rime Input Method Engine
 Version: @rime_version@
 Cflags: -I${includedir}
-Libs: -L${libdir} -lrime
+Libs: -L${libdir} -lrime-ithuan
